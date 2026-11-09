@@ -4,7 +4,16 @@ import { CustomCard } from "../components/CustomCard";
 export const Slide_작품구성 = () => {
   return (
     <Slide backgroundColor="tertiary">
-      <Heading>작품의 의도</Heading>
+      <Heading
+        fontSize="h3"
+        style={{ transform: "translateY(-30px)" }}
+      >
+        혼란스러운 AI시대,
+        <br />
+        우리는 누구의{" "}
+        <span style={{ color: "#c0392b", fontWeight: "bold" }}>의지</span>
+        로 살고 있을까?
+      </Heading>
 
       <div
         style={{
@@ -13,6 +22,7 @@ export const Slide_작품구성 = () => {
           gap: "40px",
           width: "95%",
           margin: "0 auto 30px",
+          transform: "translateY(-40px)"
         }}
       >
         <CustomCard
@@ -20,21 +30,19 @@ export const Slide_작품구성 = () => {
             flex: 1,
             padding: "35px",
             textAlign: "center",
-            minHeight: "400px"
+            minHeight: "400px",
           }}
         >
-          <div style={{ fontSize: "2rem", color: "#86868b" }}>
-            첫 번째 질문
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", width: "100%" }}>
+            <div style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#1d1d1f" }}>
+              미래의 예측 (불안)
+            </div>
           </div>
-          <div
-            style={{
-              marginTop: "20px",
-              fontSize: "3.5rem",
-              fontWeight: "bold",
-              color: "#1d1d1f",
-            }}
-          >
-            세상은 무엇으로<br />이루어져 있는가?
+          <div style={{ width: "70%", borderTop: "1px solid #d2d2d7" }} />
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", width: "100%" }}>
+            <div style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#1d1d1f" }}>
+              타인의 의견
+            </div>
           </div>
         </CustomCard>
 
@@ -43,20 +51,19 @@ export const Slide_작품구성 = () => {
             flex: 1,
             padding: "35px",
             textAlign: "center",
+            minHeight: "400px",
           }}
         >
-          <div style={{ fontSize: "2rem", color: "#86868b" }}>
-            두 번째 질문
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", width: "100%" }}>
+            <div style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#1d1d1f" }}>
+              현재의 실천 (확신)
+            </div>
           </div>
-          <div
-            style={{
-              marginTop: "20px",
-              fontSize: "3.5rem",
-              fontWeight: "bold",
-              color: "#1d1d1f",
-            }}
-          >
-            그 세상에서<br />무엇을 해야 하는가?
+          <div style={{ width: "70%", borderTop: "1px solid #d2d2d7" }} />
+          <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", width: "100%" }}>
+            <div style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#1d1d1f" }}>
+              나의 의지
+            </div>
           </div>
         </CustomCard>
       </div>
