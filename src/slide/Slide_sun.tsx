@@ -7,7 +7,7 @@ export const Slide_sun = () => {
     <Slide>
       <Heading
        style={{ transform: "translateY(-20px)" }}>
-        끊임없이 발산하는 에너지
+        끊임없이 발산하는 의지
       </Heading>
 
       <div
