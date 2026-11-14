@@ -38,6 +38,7 @@ export const Slide_중력 = () => {
               width: "100%",
               height: "100%",
               objectFit: "contain",
+              borderRadius: "16px"
             }}
           />
         </CustomCard>

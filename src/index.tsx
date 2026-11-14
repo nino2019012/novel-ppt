@@ -13,6 +13,10 @@ import { Slide_작품구성 } from "./slide/Slide_작품구성";
 import { Slide_중력 } from "./slide/Slide_중력";
 import { Slide_sun } from "./slide/Slide_sun";
 import { Slide_garden } from "./slide/Slide_garden";
+import { Slide_의지 } from "./slide/Slide_의지";
+import { Slide_도망 } from "./slide/Slide_도망";
+import { Slide_ai } from "./slide/Slide_ai";
+import { Slide_보완 } from "./slide/Slide_보완";
 
 const theme = {
   colors: {
@@ -37,9 +41,13 @@ const Presentation = () => (
     <Slide_작품구성 />
     <Slide03_schopenhaur />
     <Slide_중력 />
+    <Slide_의지/>
+    <Slide_도망/>
     <Slide_nietche />
     <Slide_sun />
     <Slide_garden />
+    <Slide_ai />
+    <Slide_보완 />
   </Deck>
 );
 
