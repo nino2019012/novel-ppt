@@ -15,7 +15,7 @@ export const Slide_ai = () => {
               gap: "16px"
             }}>
             <Image
-              src="/ai추천사진.jpg"
+              src="/맹목의 세계.png"
               height={500}
               style={{
                 objectFit:"contain",
