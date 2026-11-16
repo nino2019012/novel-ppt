@@ -13,7 +13,14 @@ export const Slide_작품구성 = () => {
           gap: "10px"
         }}
       >
-        <span style={{color:"#1d1d1f"}}>소설의 주제</span>
+        <span style={{
+          color:"#1d1d1f",
+          paddingBottom: "10px",
+          borderBottom: "1px solid #d2d2d7"
+          }}
+          >
+            소설의 주제
+        </span>
         과연 나는 나의 의지대로 살고 있는가?
       </Heading>
 
