@@ -15,20 +15,36 @@ export const Slide_도망 = () => {
     }}
   >
     <Heading
-      fontSize="h3"
-      style={{
-        transform: "translateY(-30px)",
-        textAlign: "center",
-      }}
-    >
-      <span style={{ color: "#1d1d1f" }}>그래서 기준은?</span>
-    </Heading>
+  fontSize="h3"
+  style={{
+    transform: "translateY(-50px)",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "10px",
+    textAlign: "center",
+  }}
+>
+  <span
+    style={{
+      color: "#1d1d1f",
+      paddingBottom: "10px",
+      borderBottom: "1px solid #d2d2d7",
+    }}
+  >
+    그래서 기준은?
+  </span>
+
+  <span>
+    의지의 부정
+  </span>
+</Heading>
 
     <CustomCard
       style={{
         width: "60%",
         maxWidth: "900px",
-        transform: "translateY(-50px)",
+        transform: "translateY(-110px)",
         boxSizing: "border-box",
       }}
     >
