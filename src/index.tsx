@@ -17,6 +17,7 @@ import { Slide_의지 } from "./slide/Slide_의지";
 import { Slide_도망 } from "./slide/Slide_도망";
 import { Slide_ai } from "./slide/Slide_ai";
 import { Slide_보완 } from "./slide/Slide_보완";
+import { Slide_영원회귀 } from "./slide/Slide_영원회귀";
 
 const theme = {
   colors: {
@@ -45,6 +46,7 @@ const Presentation = () => (
     <Slide_도망/>
     <Slide_nietche />
     <Slide_sun />
+    <Slide_영원회귀 />
     <Slide_garden />
     <Slide_ai />
     <Slide_보완 />
